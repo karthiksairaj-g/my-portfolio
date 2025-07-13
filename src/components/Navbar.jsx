@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { crown ,menu,close} from "../assets";
+import { PiDownloadSimple } from "react-icons/pi";
 
 const Navbar = () => {
   const handleDownload = () => {
@@ -86,11 +87,8 @@ const Navbar = () => {
          onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
       >
-        <img
-          src="/src/assets/download-file.gif"
-          alt="Download"
-          className="w-9 h-9 rounded-lg"
-        />
+       
+        <PiDownloadSimple size={26} />
       </button>
           </li>
         </ul>
@@ -143,11 +141,7 @@ const Navbar = () => {
          onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
       >
-        <img
-          src="/src/assets/download-file.gif"
-          alt="Download"
-          className="w-9 h-9 rounded-lg"
-        />
+        <PiDownloadSimple size={26} />
       </button>
           </li>
             </ul>
