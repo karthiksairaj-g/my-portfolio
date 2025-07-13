@@ -134,7 +134,7 @@ const Navbar = () => {
         className="flex items-center gap-2 px-2 py-2 rounded-xl transition
         hover:scale-[1.03] 
         hover:shadow-[0_8px_30px_rgba(93,188,252,0.15)] 
-        border border-transparent hover:border-cyan-400/30
+        border border-transparent border-cyan-400/30 bg-[#4b0cc2]
         "
         title="Download Resume"
         style={buttonStyle}
